@@ -1,0 +1,1 @@
+# playwright doesn't support fullscreen
