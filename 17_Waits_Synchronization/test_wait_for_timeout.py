@@ -4,7 +4,7 @@ def test_explicit_wait(page):
 
     page.click("#WaitVisible")
 
-    # Explicit wait
+    # Explicit wait (Manual)
     page.wait_for_timeout(5000)
 
     page.locator("#delayText").is_visible()

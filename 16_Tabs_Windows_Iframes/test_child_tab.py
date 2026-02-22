@@ -9,6 +9,9 @@ def test_child_tabs(page):
     new_tab = new_page_info.value
     new_tab.wait_for_load_state()
 
-    print("New Tab Title:", new_tab.title())
+    new_tab.locator("#user").fill('Admin')
+    new_tab.wait_for_timeout(1000)
 
     new_tab.close()
+
+    print("Back to main page:", page.title())

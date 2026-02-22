@@ -1,6 +1,6 @@
 from playwright.sync_api import expect
 
-def test_wait_clickable_manual(page):
+def test_custom_timeout(page):
 
     page.goto("https://rohit-automation.netlify.app/dashboard/dashboard.html")
 

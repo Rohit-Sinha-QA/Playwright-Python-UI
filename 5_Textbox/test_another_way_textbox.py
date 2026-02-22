@@ -1,4 +1,4 @@
-def test_another_way(page):
+def test_another_way_textbox(page):
     page.goto("https://rohit-automation.netlify.app/")
 
     # Type into Email textbox
