@@ -9,7 +9,7 @@ def test_get_text(page):
     print(text1)
 
     # Way 2 get text
-    text2 = page.get_by_role("heading", name="Welcome To Automation With Rohit").first.text_content()
+    text2 = page.get_by_role("heading", name="Welcome To Automation With Rohit").first.inner_text()
     print(text2)
 
     # Way 3 get text

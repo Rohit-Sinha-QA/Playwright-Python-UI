@@ -1,0 +1,5 @@
+[
+    {"url": "/dashboard/dashboard.html", "title": "Dashboard"},
+    {"url": "/webtable", "title": "WebTable"},
+    {"url": "/contact/contact", "title": "Contact Us"}
+]
