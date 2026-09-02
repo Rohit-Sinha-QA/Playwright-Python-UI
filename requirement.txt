@@ -3,3 +3,4 @@ pytest
 pytest-playwright
 pytest_check
 pytest-html
+## playwright install
